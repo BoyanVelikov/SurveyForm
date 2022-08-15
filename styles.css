@@ -1,0 +1,53 @@
+h1, p[id='description'] {
+    text-align: center;
+  }
+  
+  p {
+    font-weight: bold;
+  }
+  
+  input[type=text],input[type=email], input[type=number],textarea, select {
+    display: block;
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px; 
+  }
+  
+  input[type=radio] {
+    display: inline;
+  }
+  
+  input[type=checkbox] {
+    display: inline;
+  }
+  
+  body {
+    background-color: #B8A0CA;
+  font-family: Tahoma;
+  }
+  
+  form {
+  background-color: #C4D05B;
+  border: 1px solid;
+  border-color: #929765;
+  border-radius: 3px;
+  }
+  
+  
+  input[type=submit] {
+    background-color: #25B520;
+  color: black;
+  font-size: 20px;
+  width: 90%;
+  margin-left: 5px;
+  }
+  
+  .recommend {
+    width: 20%;
+    display: block;
+  }
+  
+  p[id=recommend] {
+    width: 100%;
+  }
